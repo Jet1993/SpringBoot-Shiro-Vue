@@ -18,7 +18,13 @@ public class MyApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication application = new SpringApplication(MyApplication.class);
-		application.setBannerMode(Banner.Mode.OFF);
+		/*
+		 * 定义程序启动的动画
+		 * Banner.Mode.OFF:关闭;
+		 * Banner.Mode.CONSOLE:控制台输出，默认方式;
+		 * Banner.Mode.LOG:日志输出方式;
+		 */
+		application.setBannerMode(Banner.Mode.CONSOLE);
 		application.run(args);
 	}
 
