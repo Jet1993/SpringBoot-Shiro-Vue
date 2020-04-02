@@ -33,13 +33,13 @@ spring:
 
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
-  type-aliases-package: com.heeexy.example.util.model.One2Many
+  type-aliases-package: com.jett.example.util.model.One2Many
 
 #控制台打印sql语句，level后面是dao包的路径
 logging:
   level:
     com:
-      heeexy:
+      jett:
         example:
           dao: debug
 server:
