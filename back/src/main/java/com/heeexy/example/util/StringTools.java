@@ -1,7 +1,7 @@
 package com.heeexy.example.util;
 
 /**
- * @author: hxy
+ * @author: jett
  * @date: 2017/10/24 10:16
  */
 public class StringTools {
